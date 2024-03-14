@@ -43,7 +43,7 @@ export const CUSTOMER_ORDERS_FRAGMENT = `#graphql
 `;
 
 // https://shopify.dev/docs/api/customer/latest/queries/customer
-export const CUSTOMER_ORDERS_QUERY = `#graphql
+export const CUSTOMER_ORDERS_QUERY = `#graphql  
   ${CUSTOMER_ORDERS_FRAGMENT}
   query CustomerOrders(
     $endCursor: String

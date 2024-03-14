@@ -53,7 +53,7 @@ export function HeaderMenu({menu, primaryDomainUrl, viewport}) {
           Home
         </NavLink>
       )}
-      {(menu || FALLBACK_HEADER_MENU).items.map((item) => {
+      {/* {(menu || FALLBACK_HEADER_MENU).items.map((item) => {
         if (!item.url) return null;
 
         // if the url is internal, we strip the domain
@@ -76,7 +76,8 @@ export function HeaderMenu({menu, primaryDomainUrl, viewport}) {
             {item.title}
           </NavLink>
         );
-      })}
+      })} */}
+
     </nav>
   );
 }
