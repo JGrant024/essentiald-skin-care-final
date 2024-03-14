@@ -43,7 +43,7 @@ export function links() {
       rel: 'preconnect',
       href: 'https://cdn.shopify.com',
     },
-    {
+    { 
       rel: 'preconnect',
       href: 'https://shop.app',
     },
@@ -116,6 +116,7 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <h1>TESTING OUT </h1>
         <Layout {...data}>
           <Outlet />
         </Layout>

@@ -1,6 +1,8 @@
 import {defer} from '@shopify/remix-oxygen';
+// this import is used in the loader function to defer loading data untill all promises are resolved. This will load data asynchronously.
 import {Await, useLoaderData, Link} from '@remix-run/react';
 import {Suspense} from 'react';
+// suspend rendering while waiting for some asynchronous operation to resolve, such as data fetching.
 import {Image, Money} from '@shopify/hydrogen';
 
 /**
