@@ -40,7 +40,7 @@ export default {
       ]);
 
       /**
-       * Create Hydrogen's Storefront client.
+       * Create Hydrogen's  client.
        */
       const {storefront} = createStorefrontClient({
         cache,
